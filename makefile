@@ -1,5 +1,5 @@
 all: functions.o writing.o
-	gcc -o functions functions.o
+	gcc -o control functions.o
 	gcc -o write writing.o
 
 functions.o: functions.c
